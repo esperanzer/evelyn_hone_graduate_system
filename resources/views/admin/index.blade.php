@@ -6,14 +6,21 @@
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
+          <!-- <div class="col-sm-12"> REVERT BAK FOR THE GRADUATE DASHBOD WHER ITWOS,D SIDE -->
+          <div class="col-sm-12">
+            <h1 class="m-0 text-dark"> 
+
+              <center><h2>WELCOME TO THE GRADUATE DASHBOARD </h2></center>
+
+             
+          </div>
+            <!-- /.col -->
+          <!-- <div class="col-sm-6"> REVERT BAK FOR THE GRADUATE DASHBOD WHER ITWOS,D SIDE-->
+            <!-- <div class="col-sm-12">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
             </ol>
-          </div><!-- /.col -->
+          </div> --><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -21,6 +28,7 @@
 
     <!-- Main content -->
     <section class="content">
+      
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
         <div class="row">
@@ -28,7 +36,8 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>Graduates</h3>
+                <!-- <h3><a href="{{ route('graduates.index')}}">Graduates</a> </h3> -->
+                <h3><a href="{{ route('graduates.create')}}">Graduates</a> </h3>
 
                 <p></p>
               </div>
@@ -65,7 +74,7 @@
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="{{ route('users') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href=" {{ route('users') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->

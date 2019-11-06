@@ -38,7 +38,7 @@ p {
                     @endif
                     <center>
                     Login to perform tasks!
-                    <center>
+                    </center>
                 </div>
             </div>
         </div>
@@ -58,10 +58,11 @@ p {
                     <div class="row">
                       <div class="col-sm-12">
                        <p>
-                  <a href="#">F.A.Qs</a><br>
+                  <a href="#">F.A.Qs</a>
+                  <br>
              &copyright 2018. Designed & Developed by Margiesperanza 
                 
-                  </center> 
+                </center> 
                   </a>
                 </p>
               </div>

@@ -18,9 +18,31 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Auth::routes(['verify' => true]); 
 
-Route::get('/users', 'UserController@index')->name('users');
+//for user registration on dashboard
 
+Route::get('/users_data', 'UserController@index')->name('users');
+
+
+Route::resources([
+	'user_data'=>'UserController'
+]);
+
+
+
+Route::get('/users', 'UserController@create');
+Route::get('graduates', 'GraduateController@create');
+
+//Route::get('/register', 'RegistrationController@create');
+// Route::post('users', 'UserController@store');
+// Route::get('/login', 'SessionsController@create');
+// Route::post('/login', 'SessionsController@store');
+// Route::get('/logout', 'SessionsController@destroy');
+
+Route::resources([
+	'graduates'=>'GraduateController'
+]);
 
 
 
