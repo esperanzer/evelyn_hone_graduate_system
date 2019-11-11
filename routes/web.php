@@ -50,3 +50,19 @@ Route::get('/about', function () {
 	return view('about');
 
 });
+
+
+//departments
+Route::resources([
+	'departments'=>'DepartmentsController'
+]);
+
+// coursers 
+Route::resources([
+	'courses'=>'CourseController'
+]);
+
+// statuses 
+Route::resources([
+	'status'=>'StatusController'
+]);

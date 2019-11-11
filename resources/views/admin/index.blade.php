@@ -10,7 +10,7 @@
           <div class="col-sm-12">
             <h1 class="m-0 text-dark"> 
 
-              <center><h2>WELCOME TO THE GRADUATE DASHBOARD </h2></center>
+              <h2 class="text-center p-3">WELCOME TO THE GRADUATE DASHBOARD </h2>
 
              
           </div>
@@ -54,7 +54,7 @@
               <div class="inner">
                 <h3>user Group<sup style="font-size: 20px">%</sup></h3>
 
-                <p></p>
+                <p>modify user groups </p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -62,6 +62,52 @@
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+          <!-- status card  -->
+          <div href="{{ route('status.index')}}" class="col-lg-3 col-6">
+          <div class="small-box bg-success">
+              <div class="inner">
+                <h3>Statuses<sup style="font-size: 20px"></sup></h3>
+
+                <p>Modify graduate statuses </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="{{ route('status.index') }}" class="small-box-footer">Click Here <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+
+
+          <!-- Courses card  -->
+          <div class="col-lg-3 col-6">
+          <div class="small-box bg-success">
+              <div class="inner">
+                <h3>Cousers<sup style="font-size: 20px"></sup></h3>
+
+                <p> All the cousers at EHC </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="{{ route('status.index') }}" class="small-box-footer">Click Here <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- departments  -->
+          <div class="col-lg-3 col-6">
+          <div class="small-box bg-success">
+              <div class="inner">
+                <h3>Departments<sup style="font-size: 20px"></sup></h3>
+
+                <p> All departments at EHC </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="{{ route('status.index') }}" class="small-box-footer">Click Here <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
